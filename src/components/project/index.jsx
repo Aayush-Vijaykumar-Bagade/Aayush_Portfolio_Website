@@ -52,7 +52,8 @@ const Project=()=>{
     {/* <!-- Project 2 --> */}
 
     <div className="project-card">
-      <img src="src/assets/images/gym_image1.jpg" alt="Gym_Web Image"/>
+      {/* <img src="src/assets/images/gym_image1.jpg" alt="Gym_Web Image"/> */}
+                  <img src={gymImage} alt="Gym Website" />
       <div className="project-content">
         <h3 className='Project_title'>GYM WEB APPLICATION </h3>
         <p>A responsive gym website featuring plans, trainers, and services, designed
@@ -64,7 +65,9 @@ const Project=()=>{
     {/* <!-- Project 3 --> */}
 
     <div className="project-card">
-      <img src="src/assets/images/resumeimage2.png " alt="Project Image"/>
+      {/* <img src="src/assets/images/resumeimage2.png " alt="Project Image"/> */}
+                  <img src={resumeImage} alt="Portfolio CV Website" />
+
       <div className="project-content">
         <h3 className='Project_title'>PORTFOLIO & CV WEBSITE</h3>
         <p>  A modern personal portfolio with a professional CV, built to 
@@ -75,7 +78,9 @@ const Project=()=>{
 
     
     <div className="project-card">
-      <img src="  src/assets/images/smart_washroom.png" alt="Project Image"/>
+      {/* <img src="  src/assets/images/smart_washroom.png" alt="Project Image"/> */}
+                  <img src={smartWashroom} alt="Smart Washroom Project" />
+
       <div className="project-content">
         <h3 className='Project_title'>IOT SMART WASHROOM</h3>
         <p>A sensor-based smart washroom system that automates hygiene, monitors usage,
