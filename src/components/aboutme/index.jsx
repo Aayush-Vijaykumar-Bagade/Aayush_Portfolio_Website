@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import './index.css';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import profileImage from "../../assets/images/photo-profil_301783868.jpg";
 
 
 const Aboutme =()=>{
@@ -23,7 +24,9 @@ const Aboutme =()=>{
         <div className='card_parent'>
 
         <div className='card1'>
-        <img id='img' src="src/assets/images/photo-profil_301783868.jpg" alt=""  /> <br /> <br />
+        {/* <img id='img' src="src/assets/images/photo-profil_301783868.jpg" alt=""  /> <br /> <br /> */}
+                    <img id="img" src={profileImage} alt="Aayush Bagade" />
+
         <h3>Aayush Bagade</h3> <br />
        <Link to="/Resume">
         <button id='button_card1' style={{marginRight:"10px" , borderRadius:"20px"}} type="button" className="btn btn-primary">RESUME</button>
