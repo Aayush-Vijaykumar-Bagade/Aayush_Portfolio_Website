@@ -17,7 +17,24 @@ const Resume=()=>{
     <h3>RESUME</h3>
 <br /><br /> 
 
-  <button  style={{borderRadius:"20px", padding:"10px"}} type="button" className="btn btn-outline-primary"><a style={{color:"black", textDecoration:"none"}} href="src/assets/images/Aayush_Bagade_FrontEnd@.pdf" download className="download-btn">DOWNLOAD CV</a> </button>
+  {/* <button  style={{borderRadius:"20px", backgroundColor:"", padding:"10px"}} type="button" className="btn btn-outline-primary"> */}
+  <a   style={{marginRight:"10px",}}
+    href="/pdf/Aayush_Bagade_FrontEnd.pdf"
+  target="_blank"
+  className="btn btn-outline-primary"
+>
+  View CV
+</a>
+
+<a
+    href="/pdf/Aayush_Bagade_FrontEnd.pdf"
+  download
+  className="btn btn-primary"
+>
+  Download CV
+</a>
+
+{/* </button> */}
 
   </div>  
 <br />
