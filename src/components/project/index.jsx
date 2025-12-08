@@ -1,6 +1,21 @@
 import './index.css';
 import Header from '../header';
 import Footer from '../footer';
+import jobImage from "../../assets/images/job3.jpg";
+import gymImage from "../../assets/images/gym_image1.jpg";
+import resumeImage from "../../assets/images/resumeimage2.png";
+import smartWashroom from "../../assets/images/smart_washroom.png";
+
+
+
+// const projectImages = [
+//   require("../../assets/images/project1.png"),
+//   require("../../assets/images/project2.jpg"),
+//   require("../../assets/images/project3.png"),
+// ];
+// const projectNames = ["Smart Washroom", "Portfolio CV", "Gym Website"];
+
+
 const Project=()=>{
 
 
@@ -21,7 +36,11 @@ const Project=()=>{
     {/* <!-- Project 1 --> */}
 
     <div   className="project-card">
-      <img src="src/assets/images/job3.jpg" alt="Project Image"/>
+      {/* <img src="src/assets/images/job3.jpg" alt="Project Image"/> */}
+                {/* <img src={img} className="card-img-top" alt={projectNames[i]} /> */}
+                <img src={jobImage} alt="Job Portal Project" />
+
+
       <div className="project-content">
         <h3 className='Project_title'> JOB PORTABLE APPLICATION</h3>
         <p >A job-ready web application that helps users to find the suitable Jobs as per 
