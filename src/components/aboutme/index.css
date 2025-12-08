@@ -1,0 +1,124 @@
+/* body{
+    background-color: antiquewhite;
+} */
+#parent_body{
+margin-top:20px;    
+/* padding: 20px; */
+/* border: none; */
+background-color: transparent;
+}
+.card_parent 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 1px solid rgb(115, 255, 0); */
+   text-align: center;
+   align-items: center;
+   padding-top: 30px;
+   padding: 20px;
+   /* justify-content: center; */
+}
+.card1{
+
+    width: 100%;
+    border-radius: 10px;
+    /* height: 65vh; */
+    margin: 20px;
+    background-color:#f3fffa;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+.card1:hover{
+     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        transform: translateY(-5px);
+}
+.contentself{
+    background-color:#f3fffa;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0%;
+    margin: 0%;
+}
+#img{
+    margin-top: 20px;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.card1:hover{
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+
+
+
+
+@media(min-width: 768px) {
+
+    .card_parent {
+                flex: 1;
+
+        display:flex;
+        flex-direction: row;  
+         align-items: stretch; /* makes both divs equal height */
+          width: 100%;
+        padding:20px;
+       
+    }
+
+    .card1 {
+display: flex;
+flex-direction: column;      
+  width: 90%;
+        /* height: 100%; */
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 20px;
+        
+    }
+
+    .contentself {
+         /* flex: 1; */
+        width: 20%;
+        /* height: 100%; */
+        margin: 0%;
+        padding: 10px;
+        padding-top: 0%;
+        background-color:transparent;
+    }
+   .br{
+    display: none;
+   }
+    .icons_data{
+margin-bottom: 20px;  
+  }
+  #button_card1{
+    margin-bottom: 15px;
+  }
+
+ 
+#footer_data{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 38%;
+}
+
+  
+}
+
+
+@media(min-width:1024px) {
+    
+    .contentself {
+ margin-top: 20px;
+
+
+    }
+    .card{
+        padding-bottom: 40px;
+    }
+}
