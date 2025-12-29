@@ -7,8 +7,7 @@ import './index.css';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import profileImage from "../../assets/images/photo-profil_301783868.jpg";
-
-
+import profileimage from"../../assets/images/profileimage.png";
 const Aboutme =()=>{
 
 
@@ -25,7 +24,9 @@ const Aboutme =()=>{
 
         <div className='card1'>
         {/* <img id='img' src="src/assets/images/photo-profil_301783868.jpg" alt=""  /> <br /> <br /> */}
-                    <img id="img" src={profileImage} alt="Aayush Bagade" />
+                    {/* <img id="img" src={profileImage} alt="Aayush Bagade" /> */}
+                    <img src={profileImg} alt="Profile" className="profile-img" />
+
 
         <h3>Aayush Bagade</h3> <br />
        <Link to="/Resume">

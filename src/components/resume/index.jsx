@@ -126,8 +126,23 @@ const Resume=()=>{
   <ul >
       <li>HTML5, CSS3, JavaScript (ES6+)</li>
       <li>React.js (Hooks, Components, Props, State)</li>
+      <li>Node.js</li>
       <li>Bootstrap, Responsive Web Design</li>
       <li>DOM Manipulation, Fetch API</li>
+    </ul>
+  
+  
+  </div>
+
+  
+  <div className="card">
+    <h3>Backend</h3>
+    
+  <ul >
+      <li>Node.js</li>
+      <li>Express.js</li>
+      <li>RESTful API Development, CRUD Operations</li>
+      <li>Middleware, Error Handling</li>
     </ul>
   
   
@@ -160,6 +175,7 @@ const Resume=()=>{
 
  <ul>
       <li>MySQL</li>
+      <li>Mongodb</li>
     </ul>
    
   </div>
@@ -177,7 +193,7 @@ const Resume=()=>{
   <div className="card">
     <h3>Programming</h3>
 <ul>
-      <li>Java (Basics)</li>
+      <li>Java </li>
     </ul>
     
   </div>
