@@ -19,7 +19,7 @@ const Resume=()=>{
 
   {/* <button  style={{borderRadius:"20px", backgroundColor:"", padding:"10px"}} type="button" className="btn btn-outline-primary"> */}
   <a   style={{marginRight:"10px",}}
-    href="public\pdf\Aayush_Bagade_FrontEnd_Backend (2).pdf"
+    href="\pdf\Aayush_Bagade_FrontEnd_Backend (2).pdf"
   target="_blank"
   className="btn btn-outline-primary"
 >
