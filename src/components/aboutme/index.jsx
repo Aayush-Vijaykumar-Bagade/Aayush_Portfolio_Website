@@ -6,8 +6,10 @@ import { Link } from 'react-router-dom';
 import './index.css';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
-import profileImage from "../../assets/images/photo-profil_301783868.jpg";
-import profileimage from"../../assets/images/profileimage.png";
+// import profileImage from "../../assets/images/photo-profil_301783868.jpg";
+// import profileimage from"../../assets/images/profileimage.png";
+import profileimage from "../../assets/images/profileimage.png";
+
 const Aboutme =()=>{
 
 
